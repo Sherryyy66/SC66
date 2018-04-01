@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+name=input('请输入学生姓名:')
+s1 = input('请输入%s去年的成绩:'%name)
+s2 = input('请输入%s今年的成绩:'%name)
+r=(int(s2)-int(s1))/int(s1)*100
+print('{0}今年成绩比去年提升了{1:.1f}%'.format(name,r))
+print('%s今年成绩比去年提升了%.1f%%'%(name,r))
