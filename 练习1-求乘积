@@ -1,0 +1,7 @@
+print('求两数的乘积')
+num1=input('Please input a number:')
+num2=input('Please input another number:')
+sub=1
+sub=int(num1)*int(num2)
+print('%s*%s=%s'%(num1,num2,sub))
+
