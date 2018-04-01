@@ -1,0 +1,3 @@
+# -*- coding: cp936 -*-
+#第一个Python程序
+print("Hello, Dear Sherry!Hello World!")
